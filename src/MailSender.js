@@ -18,7 +18,7 @@ class MailSender {
       to: targetEmail,
       subject: 'Eksport Catatan',
       text: 'Terlampir hasil dari ekspor catatan',
-      attachment: [
+      attachments: [
         {
           filename: 'notes.json',
           content,
